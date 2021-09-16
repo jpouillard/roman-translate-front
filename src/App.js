@@ -26,6 +26,7 @@ function App() {
   return (
     <div className="root">
       <Container>
+        <h1 className="text-center">Arabic to Roman</h1>
         <Row className="mt-4">
           <Col md={5}>
             <Input type="text" onChange={handleTranslate} value={number} />
